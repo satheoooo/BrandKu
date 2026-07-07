@@ -1,14 +1,6 @@
 import React from 'react';
 
-interface FeatureCardProps {
-  title: string;
-  description: string;
-  icon: React.ReactNode;
-  iconColor: string;
-  bgColor: string;
-}
-
-const FeatureCard = ({ title, description, icon, iconColor, bgColor }: FeatureCardProps) => {
+const FeatureCard = ({ title, description, icon, iconColor, bgColor }) => {
   return (
     <article className="flex flex-col items-start text-left">
       <div className={`${iconColor} mb-4 ${bgColor} p-3 rounded-lg`}>
