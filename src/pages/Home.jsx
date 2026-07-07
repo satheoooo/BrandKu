@@ -24,6 +24,7 @@ const Home = () => {
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           <FeatureCard 
+            id="mudah"
             title="Mudah Digunakan"
             description="Tidak perlu keahlian teknis. Setup dalam 5 menit."
             iconColor="text-orange-500"
@@ -35,6 +36,7 @@ const Home = () => {
             }
           />
           <FeatureCard 
+            id="otomatis"
             title="Serba Otomatis"
             description="Otomatiskan tugas berulang dan fokus pada hal yang penting."
             iconColor="text-purple-500"
@@ -46,6 +48,7 @@ const Home = () => {
             }
           />
           <FeatureCard 
+            id="laporan"
             title="Laporan Real-time"
             description="Pantau performa bisnismu kapan saja dan di mana saja."
             iconColor="text-green-500"
