@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import FeatureCard from '../components/FeatureCard';
 
 const Home = () => {
@@ -12,9 +13,9 @@ const Home = () => {
           <p className="text-lg text-slate-500 mb-10 leading-relaxed">
             Platform all-in-one untuk manajemen, pemasaran, dan pertumbuhan bisnis kecil.
           </p>
-          <a href="#" className="inline-block bg-blue-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-blue-700 transition-all shadow-lg shadow-blue-200">
+          <Link to="/login" className="inline-block bg-blue-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-blue-700 transition-all shadow-lg shadow-blue-200">
             Mulai Gratis
-          </a>
+          </Link>
         </div>
       </section>
 
